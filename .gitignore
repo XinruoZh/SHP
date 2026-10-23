@@ -1,0 +1,33 @@
+# Nextflow runtime
+.nextflow/
+.nextflow.log*
+work/
+
+# Pipeline outputs
+results/
+
+# Test outputs and test data (genomes, results)
+test/genomes/
+test/results/
+
+# Input data
+SHP_seq/
+quries/
+
+# Temporary/development files
+code_temp/
+
+# Specific result/input files
+rgg144_hmmer.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Claude local settings
+.claude/
+
+# Editors
+.DS_Store
+*.swp

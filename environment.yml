@@ -1,0 +1,22 @@
+name: shp
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Python
+  - python=3.10.21
+  - pip=26.2.1
+
+  # Core bioinformatics tools
+  - bioconda::hmmer=3.4
+
+  # Core Python libraries
+  - biopython=1.85
+  - numpy=2.2.6        # required by biopython
+
+  # Java 17+ required by Nextflow
+  - conda-forge::openjdk=17.0.18
+
+  # Nextflow
+  - bioconda::nextflow=24.10.2
